@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珠海阳光儿童用品有限公司 | Sunnylove Baby Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="https://i.ibb.co/G3QM1VNW/d5b8cb53a561.png" alt="Sunnylove Logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-page="home">首页</a></li>
+                <li><a href="#" class="nav-link" data-page="about">公司概述</a></li>
+                <li><a href="#" class="nav-link" data-page="brand">品牌理念</a></li>
+                <li><a href="#" class="nav-link" data-page="products">产品展示</a></li>
+                <li><a href="#" class="nav-link" data-page="advantages">公司优势</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面内容容器 -->
+    <div class="page-container">
+        <!-- 首页 -->
+        <div class="page active" id="home-page">
+            <section class="hero">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">珠海阳光儿童用品有限公司</h1>
+                    <h2 class="hero-subtitle">Sunnylove Baby Products Zhuhai Co., Ltd.</h2>
+                    <p class="hero-slogan">贴心育婴，阳光相伴</p>
+                    <p class="hero-slogan-en">Caring for Baby, Sunnylove Always By Your Side</p>
+                    <button class="btn-primary" onclick="showPage('about')">了解更多</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- 公司概述页面 -->
+        <div class="page" id="about-page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">公司概述</h2>
+                        <p class="section-title-en">Company Overview</p>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <div class="icon">🏢</div>
+                            <h3>公司介绍</h3>
+                            <p>珠海阳光儿童用品有限公司（Sunnylove）成立于2003年，总部位于珠海，在中山和湖北设有分公司，集团总面积超8.1万平方米，是一家集研发、生产、销售及品牌运营于一体的高新技术企业。</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="icon">⚙️</div>
+                            <h3>公司实力</h3>
+                            <p>公司采用先进生产工艺，建立科学的管理体系与质量保障体系，已通过ISO9001、ISO14001认证，并自主开发MES追溯系统，致力于实现卓越品质生产。</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="icon">🔬</div>
+                            <h3>技术优势</h3>
+                            <p>具备强大的质量控制能力，拥有独立测试实验室和汽车座椅有限元分析（FEA）技术，并设有IQTC汽车座椅碰撞测试实验室。</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="icon">🏭</div>
+                            <h3>制造能力</h3>
+                            <p>配备完整的生产线体系，包括粉末喷涂、铝管挤压、管材加工、阳极氧化、注塑成型、缝纫及组装等全流程设备。</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="icon">🌍</div>
+                            <h3>公司地位</h3>
+                            <p>致力于为全球30多个国家提供高性价比的ODM/OEM服务，是Britax、Uppababy、Thule、Chicco等国际大牌的长期战略合作伙伴。</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="icon">🎯</div>
+                            <h3>服务理念</h3>
+                            <p>为客户提供ODM/OEM领域的世界级卓越服务，以高性价比方案实现品质卓越，持续超越客户期待。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 品牌理念页面 -->
+        <div class="page" id="brand-page">
+            <section class="section brand-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">品牌理念</h2>
+                        <p class="section-title-en">Brand Philosophy</p>
+                    </div>
+                    
+                    <div class="brand-content">
+                        <div class="brand-slogan">
+                            <h3>品牌口号</h3>
+                            <p class="slogan-main">贴心育婴，阳光相伴</p>
+                            <p class="slogan-desc">我们以无微不至的关怀，专注于提供专业可靠的婴儿用品与服务，让品牌如同温暖和煦的阳光，始终陪伴并守护宝宝安全、健康、快乐地成长。</p>
+                        </div>
+
+                        <div class="brand-slogan">
+                            <h3>创意口号</h3>
+                            <p class="slogan-main">折叠时光，展开爱</p>
+                            <p class="slogan-desc">以婴儿推车、安全座椅的"可折叠"核心功能为切入点，隐喻产品为父母高效压缩育儿琐碎时间；当产品展开使用时，则象征品牌如"阳光般守护之力"全面释放。</p>
+                        </div>
+
+                        <div class="mission-vision">
+                            <div class="mv-card">
+                                <h3>公司使命</h3>
+                                <p class="mv-title">呵护母婴童，成就新时代</p>
+                                <p class="mv-desc">母婴童的健康快乐关乎着千家万户的幸福，关乎着社会经济的稳定与持续发展，更关乎着国家民族的未来。阳光儿童作为母婴童行业的智造者，唯有呵护母婴童，才能成就新时代。</p>
+                            </div>
+                            <div class="mv-card">
+                                <h3>公司愿景</h3>
+                                <p class="mv-title">成为母婴童用品行业的智造标杆</p>
+                                <p class="mv-desc">用智辨识母婴童的需求；用慧设计有温度感的产品，用智慧生产管控系统，智造出最高性价比的精品，最快捷地满足母婴童的需求。</p>
+                            </div>
+                        </div>
+
+                        <div class="core-values">
+                            <h3>核心价值观</h3>
+                            <div class="values-grid">
+                                <div class="value-item">
+                                    <h4>诚信</h4>
+                                    <p>诚实无欺，信守诺言，言行相符，表里如一</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>勤奋</h4>
+                                    <p>坚持不懈、积极、努力地去解决工作或学习中遇到的所有困难</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>日理日清</h4>
+                                    <p>每天完成核定工作量，整理思路，为实现目标微调方向</p>
+                                </div>
+                                <div class="value-item">
+                                    <h4>和谐多赢</h4>
+                                    <p>实现客户、员工、企业、股东、社会多赢局面</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 产品展示页面 -->
+        <div class="page" id="products-page">
+            <section class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">产品展示</h2>
+                        <p class="section-title-en">Product Display</p>
+                    </div>
+                    <div class="product-categories">
+                        <!-- 婴儿推车系列 -->
+                        <div class="category-card">
+                            <h3>婴儿推车系列</h3>
+                            <div class="product-images">
+                                <img src="https://i.ibb.co/11tPHqd/1ec1c53bac6a.png" alt="婴儿推车1" class="product-img">
+                                <img src="https://i.ibb.co/Kj8pKN2z/d6a1588b7f56.png" alt="婴儿推车2" class="product-img">
+                                <img src="https://i.ibb.co/LXGysnBN/74ac49e5380c.png" alt="婴儿推车3" class="product-img">
+                            </div>
+                        </div>
+
+                        <!-- 安全座椅系列 -->
+                        <div class="category-card">
+                            <h3>安全座椅系列</h3>
+                            <div class="product-images">
+                                <img src="https://i.ibb.co/ynT8bMsW/03c7b6dc9252.png" alt="安全座椅1" class="product-img">
+                                <img src="https://i.ibb.co/7JNyG8tC/5b69135a9418.png" alt="安全座椅2" class="product-img">
+                                <img src="https://i.ibb.co/DH50N0T9/eb6e6790e9c6.png" alt="安全座椅3" class="product-img">
+                            </div>
+                        </div>
+
+                        <!-- 高餐椅系列 -->
+                        <div class="category-card">
+                            <h3>高餐椅系列</h3>
+                            <div class="product-images">
+                                <img src="https://i.ibb.co/B2XxCVDB/404ef9916333.png" alt="高餐椅1" class="product-img">
+                                <img src="https://i.ibb.co/cXhHgMg6/191888318fe8.png" alt="高餐椅2" class="product-img">
+                                <img src="https://i.ibb.co/4RZP4LsM/956f92564b84.png" alt="高餐椅3" class="product-img">
+                            </div>
+                        </div>
+
+                        <!-- 其他产品 -->
+                        <div class="category-card">
+                            <h3>其他产品</h3>
+                            <div class="product-images">
+                                <img src="https://i.ibb.co/zVMXw9WC/0abf9915a9c3.png" alt="其他产品1" class="product-img">
+                                <img src="https://i.ibb.co/XZ7W91tB/1f6103fd5ec3.png" alt="其他产品2" class="product-img">
+                                <img src="https://i.ibb.co/n8g7h33K/f0a1ee8e715e.png" alt="其他产品3" class="product-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 公司优势页面 -->
+        <div class="page" id="advantages-page">
+            <section class="section advantages-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">公司优势</h2>
+                        <p class="section-title-en">Core Competencies</p>
+                    </div>
+                    <div class="advantages-grid">
+                        <div class="advantage-card">
+                            <div class="advantage-icon">🏆</div>
+                            <h3>名企背书</h3>
+                            <p>深度绑定Britax、Uppababy、Thule等全球一线品牌，建立长期战略合作。通过ISO9001、ISO14001及SMETA体系认证。</p>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon">✨</div>
+                            <h3>精工品质</h3>
+                            <p>严格执行欧盟EN1888及国标GB14748-2006安全标准，产品经数千次实测验证，确保出厂即具备军工级可靠性。</p>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon">🔬</div>
+                            <h3>硬核研发</h3>
+                            <p>配备自有实验室及IQTC碰撞测试远程站点，掌握FEA有限元分析技术，为客户缩短超30%的研发周期。</p>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon">🏭</div>
+                            <h3>全链智造</h3>
+                            <p>自持铝管挤压、粉末涂层、注塑、缝纫等全产业链产线，实现从原材料到成品的全流程自主生产。</p>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon">⚡</div>
+                            <h3>敏捷交付</h3>
+                            <p>依托全产业链垂直整合与柔性生产体系，交付周期较行业平均水平大幅缩短，客户粘性极高。</p>
+                        </div>
+                        <div class="advantage-card">
+                            <div class="advantage-icon">🚀</div>
+                            <h3>爆款频出</h3>
+                            <p>创新研发一键自动折叠、全地形越野轮、3-in-1多功能系统等黑科技产品，精准契合都市家庭需求。</p>
+                        </div>
+                    </div>
+
+                    <!-- 未来展望 -->
+                    <div class="future-content">
+                        <div class="future-goal">
+                            <h3>战略目标</h3>
+                            <p>在3-5年内成为中国母婴童用品(0-4岁)行业智造第一股</p>
+                        </div>
+                        <div class="future-path">
+                            <h3>发展路径</h3>
+                            <div class="path-items">
+                                <div class="path-item">
+                                    <h4>聚优力·创精品</h4>
+                                    <p>汇聚优势资源，设计精品，智造精品</p>
+                                </div>
+                                <div class="path-item">
+                                    <h4>聚优力·创品牌</h4>
+                                    <p>汇聚优势资源，智创ODM服务商品牌</p>
+                                </div>
+                                <div class="path-item">
+                                    <h4>聚优力·创未来</h4>
+                                    <p>让母婴童与事业合伙人共享健康财富</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- 联系我们页面 -->
+        <div class="page" id="contact-page">
+            <section class="section contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">联系我们</h2>
+                        <p class="section-title-en">Contact Us</p>
+                    </div>
+                    
+                    <div class="contact-layout">
+                        <!-- 联系信息 -->
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h3>公司地址</h3>
+                                    <p>广东省珠海市金湾区红旗镇永安三路18号</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <h3>联系电话</h3>
+                                    <p>+86-756-7618866</p>
+                                    <p>+86-756-7618877</p>
+                                    <p>+86-756-7618899</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🌐</div>
+                                <div class="contact-details">
+                                    <h3>公司网址</h3>
+                                    <p><a href="http://www.sunnylove.com.cn" target="_blank">www.sunnylove.com.cn</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <div class="contact-details">
+                                    <h3>邮箱地址</h3>
+                                    <p>info@sunnylove.com.cn</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div class="contact-details">
+                                    <h3>营业时间</h3>
+                                    <p>周一至周五：8:30 - 17:30</p>
+                                    <p>周六：9:00 - 12:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 地图区域 -->
+                        <div class="map-container">
+                            <div class="map-header">
+                                <h3>📍 公司位置</h3>
+                                <p>珠海市金湾区红旗镇永安三路18号</p>
+                            </div>
+                            <div class="map-frame">
+                                <!-- 地图图片 -->
+                                <img src="https://i.ibb.co/S7rTFKvD/99f19acc49f4.png" alt="公司位置地图" class="map-image">
+                            </div>
+                            <div class="map-actions">
+                                <a href="https://map.baidu.com/search/%E7%8F%A0%E6%B5%B7%E5%B8%82%E9%87%91%E6%B9%BE%E5%8C%BA%E7%BA%A2%E6%97%97%E9%95%87%E6%B0%B8%E5%AE%89%E4%B8%89%E8%B7%AF18%E5%8F%B7" target="_blank" class="map-link">
+                                    🗺️ 在百度地图中查看
+                                </a>
+                                <a href="https://uri.amap.com/marker?position=113.536285,22.593878&name=珠海阳光儿童用品有限公司&src=mypage" target="_blank" class="map-link">
+                                    🧭 在高德地图中查看
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 公司简介卡片 -->
+                    <div class="company-brief">
+                        <div class="brief-content">
+                            <h3>关于珠海阳光儿童用品有限公司</h3>
+                            <p>成立于2003年，总部位于珠海，在中山和湖北设有分公司。集团总面积超8.1万平方米，是一家集研发、生产、销售及品牌运营于一体的高新技术企业。致力于为全球30多个国家提供高性价比的ODM/OEM服务。</p>
+                            <div class="brief-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">2003</span>
+                                    <span class="stat-label">成立年份</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">8.1万</span>
+                                    <span class="stat-label">总面积(㎡)</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">30+</span>
+                                    <span class="stat-label">服务国家</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 珠海阳光儿童用品有限公司 Sunnylove Baby Products Zhuhai Co., Ltd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
