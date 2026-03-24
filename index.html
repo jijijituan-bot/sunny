@@ -163,13 +163,14 @@
                     </div>
                     <div class="product-categories">
                         <!-- 婴儿推车系列 -->
-                        <div class="category-card">
+                        <div class="category-card" onclick="openCarousel('stroller')">
                             <h3>婴儿推车系列</h3>
                             <div class="product-images">
                                 <img src="https://i.ibb.co/11tPHqd/1ec1c53bac6a.png" alt="婴儿推车1" class="product-img">
                                 <img src="https://i.ibb.co/Kj8pKN2z/d6a1588b7f56.png" alt="婴儿推车2" class="product-img">
                                 <img src="https://i.ibb.co/LXGysnBN/74ac49e5380c.png" alt="婴儿推车3" class="product-img">
                             </div>
+                            <div class="view-more">点击查看更多 →</div>
                         </div>
 
                         <!-- 安全座椅系列 -->
@@ -193,13 +194,14 @@
                         </div>
 
                         <!-- 其他产品 -->
-                        <div class="category-card">
+                        <div class="category-card" onclick="openCarousel('other')">
                             <h3>其他产品</h3>
                             <div class="product-images">
                                 <img src="https://i.ibb.co/zVMXw9WC/0abf9915a9c3.png" alt="其他产品1" class="product-img">
                                 <img src="https://i.ibb.co/XZ7W91tB/1f6103fd5ec3.png" alt="其他产品2" class="product-img">
                                 <img src="https://i.ibb.co/n8g7h33K/f0a1ee8e715e.png" alt="其他产品3" class="product-img">
                             </div>
+                            <div class="view-more">点击查看更多 →</div>
                         </div>
                     </div>
                 </div>
@@ -384,6 +386,22 @@
             <p>&copy; 2026 珠海阳光儿童用品有限公司 Sunnylove Baby Products Zhuhai Co., Ltd. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <!-- 轮播图模态框 -->
+    <div class="carousel-modal" id="carouselModal">
+        <div class="carousel-container">
+            <button class="carousel-close" onclick="closeCarousel()">&times;</button>
+            <button class="carousel-btn carousel-prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="carousel-content">
+                <img id="carouselImage" src="" alt="产品图片">
+                <div class="carousel-counter">
+                    <span id="currentSlide">1</span> / <span id="totalSlides">5</span>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-next" onclick="changeSlide(1)">&#10095;</button>
+            <div class="carousel-thumbnails" id="carouselThumbnails"></div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
